@@ -17,6 +17,14 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hello', function () {
+Route::get('/About_Me', function () {
+    return('Hello World');
+});
+
+Route::get('/Skills', function () {
+    return('Hello World');
+});
+
+Route::get('/Hobbies', function () {
     return('Hello World');
 });
