@@ -7,6 +7,18 @@
     <title>About Me</title>
 </head>
 <body>
+    
+    <form action="/skills">
+        <input type="submit" value="Skills" />
+    </form>
+    <form action="/hobbies">
+        <input type="submit" value="Hobbies" />
+    </form>
+    <form action="/aboutme">
+        <input type="submit" value="About Me" />
+    </form>
+
     <h1>About Me</h1>
+    
 </body>
 </html>
