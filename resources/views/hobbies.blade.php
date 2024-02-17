@@ -19,6 +19,13 @@
     </form>
 
     <h1>My Hobbies</h1>
+    <p>My hobbies include:</p>
+    <ul>
+        <li>{{$hobbyone}}</li>
+        <li>{{$hobbytwo}}</li>
+        <li>{{$hobbythree}}</li>
+        <li>{{$hobbyfour}}</li>
+    </ul>
     
 </body>
 </html>

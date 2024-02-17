@@ -20,14 +20,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/aboutme', function () {
-    return view('aboutme');
-});
+Route::get('/aboutme', [AboutMeController::class, 'show']);
 
-Route::get('/skills', function () {
-    return view('skills');
-});
+Route::get('/skills', [SkillsController::class, 'show']);
 
-Route::get('/hobbies', function () {
-    return view('hobbies');
-});
+Route::get('/hobbies', [HobbiesController::class, 'show']);

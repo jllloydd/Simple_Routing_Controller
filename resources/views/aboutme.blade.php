@@ -9,7 +9,7 @@
 <body>
     
     <form action="/skills">
-        <input type="submit" value="Skills" />
+        <input type="submit" value="Skills"/>
     </form>
     <form action="/hobbies">
         <input type="submit" value="Hobbies" />
@@ -19,6 +19,10 @@
     </form>
 
     <h1>About Me</h1>
+    <p>My Name is {{$name}}.</p>
+    <p>I am {{$age}} years old.</p>
+    <p>I am currently taking the course {{$course}}.</p>
+    <p>I live in {{$address}}.</p>
     
 </body>
 </html>

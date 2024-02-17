@@ -18,7 +18,14 @@
         <input type="submit" value="About Me" />
     </form>
 
-    <h1>My Skills</h1>
+    <h1>My Skills</h1>  
+    <p>My skills include:</p>
+    <ul>
+        <li>{{$skillone}}</li>
+        <li>{{$skilltwo}}</li>
+        <li>{{$skillthree}}</li>
+        <li>{{$skillfour}}</li>
+    </ul>
     
 </body>
 </html>
